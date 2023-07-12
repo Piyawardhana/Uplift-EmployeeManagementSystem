@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+/* Header */
+.header {
+
+  padding: 1px;
+  text-align: center;
+  background: linear-gradient(to bottom, #003399 0%, #669999 100%);
+  width: 100%;
+
+  top: 0;
+}
+
+.header h1 {
+  font-size: 65px;
+  color: MidnightBlue;
+  text-shadow: 2px 2px LightBlue;
+  font-style: italic;
+}
+
+.header p{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: -11px;
+	
+}
+
+.header-right {
+    float: middle;
+  }
+.header img {
+  float: left;
+  padding: 12px;
+  margin-top: 20px;
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+
+}
+
+button {
+  background-color: MidnightBlue;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 16px;
+  font-size: 18px;
+  width: 25%;
+}
+
+button:hover {
+  background-color: #777;
+}
